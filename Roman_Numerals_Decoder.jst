@@ -1,5 +1,5 @@
 function solution (roman) {
-  const romanObj={
+  const romanObject={
     I: 1,
     V: 5,
     X: 10,
@@ -11,7 +11,7 @@ function solution (roman) {
   let result = 0;
   let previousValue = 0;
   for(let i=roman.length-1; i >= 0; i--){
-    let value = romanObj[roman[i]];
+    let value = romanObject[roman[i]];
     if( value >= previousValue){
       result += value;
     }else{
