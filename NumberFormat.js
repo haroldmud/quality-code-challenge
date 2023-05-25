@@ -1,3 +1,3 @@
-var numberFormat = function (number) {
+var numberFormat = (number) => {
   return number.toLocaleString()
 };
