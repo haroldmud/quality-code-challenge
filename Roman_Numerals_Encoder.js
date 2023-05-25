@@ -14,15 +14,15 @@ function solution(number){
     {value:5, symbol:'V'},
     {value:4, symbol:'IV'},
     {value:1, symbol:'I'},
-  ]
-  let result = ''
+  ];
+  let result = '';
   
   for(let i=0; i<encoder.length; i++){
-    const {value,symbol} = encoder[i]
+    const {value,symbol} = encoder[i];
     while(number >= value){
       result += symbol;
       number -=value
     }
   }
-  return result
+  return result;
 }
