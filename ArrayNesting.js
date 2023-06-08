@@ -13,3 +13,5 @@ function handleNestedArray(nest){
 
 const level = handleNestedArray(nestedArray) //4
 const flatArray = nestedArray.flat(level);
+
+console.log(flatArray) //[1, 2, 3, 4, 5, 6, 7]
