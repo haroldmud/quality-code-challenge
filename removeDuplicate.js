@@ -4,4 +4,4 @@ function DuplicateRemoval(sample){
    return [...new Set(sample)]
 }
 
-console.log(DuplicateRemoval(originalArray)
+console.log(DuplicateRemoval(originalArray) //[11,22,33,4,5]
