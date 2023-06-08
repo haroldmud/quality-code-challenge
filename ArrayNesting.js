@@ -11,4 +11,4 @@ function handleNestedArray(nest){
     return countLevel.length;
 }
 
-console.log(handleNestedArray(nestedArray))
+console.log(handleNestedArray(nestedArray)) //4
