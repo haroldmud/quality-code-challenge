@@ -1,4 +1,4 @@
-const nestedArray = [1,2,[3,4,[5,6]],[7],]
+const nestedArray = [1,2,[3,4,[5,6]],[7]]
 
 function handleNestedArray(nest){
     const split = JSON.stringify(nest).split("");
