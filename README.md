@@ -1,1 +1,1 @@
-p# quality-code-challenge
+# quality-code-challenge
