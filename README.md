@@ -1,2 +1,1 @@
-s
-yuiop# quality-code-challenge
+syuiop# quality-code-challenge
