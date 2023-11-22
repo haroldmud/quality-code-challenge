@@ -1,2 +1,2 @@
-dy want to leave their nine to five
+y want to leave their nine to five
 # quality-code-challenge
